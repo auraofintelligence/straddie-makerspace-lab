@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Markdown form builders for Straddie Maker-Space Lab tool sharing, learning requests, build ideas, repair requests, experiments and material offers.">
+    <title>Forms | Straddie Maker-Space Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Nunito+Sans:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-page="forms">
+    <header data-site-header></header>
+    <main id="main">
+      <section class="page-hero" aria-labelledby="page-title">
+        <h1 class="page-title" id="page-title">What do people want to share, learn, build, repair or test?</h1>
+        <p class="lede">These plain forms turn community offers and questions into small Markdown files. A file can become a noticeboard post, workshop intake note, grant evidence, tool-sharing record or next-step conversation.</p>
+      </section>
+
+      <section class="section split" aria-labelledby="why-title">
+        <div>
+          <h2 id="why-title">A gentle front door for non-technical people.</h2>
+          <p class="body-copy">The form pattern follows the shared-assets builder from the Straddie Content Assets Kit: fill in ordinary fields, review the Markdown, then copy or download a public-safe draft for a human to check.</p>
+          <p class="open-question">What if the first useful database was not a database at all, but careful notes that people can read, improve and act on?</p>
+        </div>
+        <div class="callout">
+          <h3>Public-safe reminder</h3>
+          <p>These files should avoid private addresses, personal phone numbers, expensive tool storage locations, access codes, unsafe instructions and permission-sensitive details.</p>
+        </div>
+      </section>
+
+      <div class="band">
+        <section class="section builder-layout" aria-labelledby="builder-title">
+          <form class="builder-form" data-makerspace-builder>
+            <fieldset>
+              <legend id="builder-title">Choose the form type</legend>
+              <label>Record type
+                <select name="record_type">
+                  <option value="tool-share">Tool sharing offer</option>
+                  <option value="learning-request">What I want to learn</option>
+                  <option value="build-request">What I want to build</option>
+                  <option value="repair-request">What I want to repair</option>
+                  <option value="experiment-idea">What I want to experiment with</option>
+                  <option value="material-offer">Material or parts offer</option>
+                </select>
+              </label>
+              <label>Short public title <input name="title" placeholder="e.g. Bike repair night tool share"></label>
+              <label>Person, group or project name <input name="steward" placeholder="Who is offering, asking or stewarding this?"></label>
+              <label>Public contact or noticeboard link <input name="public_contact" placeholder="A public page, noticeboard item, email alias or leave blank for now"></label>
+              <label>Township or reach <input name="place" placeholder="Dunwich, Amity, Point Lookout, island-wide, online"></label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Main details</legend>
+              <label data-detail-label>What is being shared, learned, built, repaired or tested?
+                <textarea name="details" placeholder="Describe the tool, skill, object, build, repair, experiment or material stream in plain language."></textarea>
+              </label>
+              <label>Useful dates, times or availability <textarea name="availability" placeholder="Open workshop day, school holiday idea, evenings, by request, one-off offer, ongoing interest"></textarea></label>
+              <label>Tools, materials, spaces or helpers needed <textarea name="needs" placeholder="One per line. Include what is already available and what is missing."></textarea></label>
+              <label>Safety, induction or permission notes <textarea name="safety" placeholder="Power, blades, dust, cement, heat, water, road access, supervision, owner permission, insurance, test-and-tag, privacy"></textarea></label>
+              <label>Possible first small action <textarea name="next_step" placeholder="What is the smallest useful next step?"></textarea></label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Boundaries and review</legend>
+              <label>What should stay private or approval-only? <textarea name="private_notes" placeholder="Private contact details, exact storage location, expensive gear, cultural permissions, property access, unsafe instructions"></textarea></label>
+              <label>Open questions <textarea name="questions" placeholder="What needs answering before this becomes public, safe, funded, booked or tested?"></textarea></label>
+              <label>Reviewer or next steward <input name="reviewer" placeholder="Who should check this before action?"></label>
+            </fieldset>
+
+            <div class="builder-actions">
+              <button class="button primary" type="submit">Update Markdown</button>
+              <button class="button secondary" type="button" data-copy-markdown>Copy Markdown</button>
+              <button class="button secondary" type="button" data-download-markdown>Download .md</button>
+              <button class="button secondary" type="button" data-clear-form>Clear</button>
+            </div>
+            <p class="status" data-status aria-live="polite"></p>
+          </form>
+
+          <aside class="output-panel">
+            <label for="markdownOutput">Generated Markdown</label>
+            <textarea id="markdownOutput" class="markdown-output" spellcheck="false" data-markdown-output></textarea>
+          </aside>
+        </section>
+      </div>
+
+      <section class="section" aria-labelledby="records-title">
+        <div class="section-head">
+          <h2 id="records-title">What records could these forms create?</h2>
+          <p class="body-copy">Each record starts small. The value is in making needs, offers and limits visible enough for people to help responsibly.</p>
+        </div>
+        <div class="grid three">
+          <article class="info-card"><h3>Tool sharing</h3><p>Who can lend or steward a tool, what training is needed, how it is checked out, and when sharing should pause.</p></article>
+          <article class="info-card"><h3>Learning requests</h3><p>What people want to learn, why it matters, and what a beginner-friendly first session could look like.</p></article>
+          <article class="info-card"><h3>Build ideas</h3><p>What people want to make, what materials are already available, and what would make the first prototype useful.</p></article>
+          <article class="info-card"><h3>Repair intake</h3><p>What is broken, what is safe to inspect, what might become parts-only, and what needs specialist help.</p></article>
+          <article class="info-card"><h3>Experiment prompts</h3><p>Which material, tool, food, media, concrete, sand or energy question could be tested without overpromising.</p></article>
+          <article class="info-card"><h3>Material offers</h3><p>What clean offcuts, containers, parts or surplus could be offered before disposal, with clear no-go rules.</p></article>
+        </div>
+      </section>
+    </main>
+    <footer data-site-footer></footer>
+    <script src="script.js"></script>
+    <script src="makerspace-builder.js"></script>
+  </body>
+</html>
