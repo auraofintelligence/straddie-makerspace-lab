@@ -18,12 +18,12 @@
   };
 
   const detailPrompts = {
-    "tool-share": "What tool, bench, kit or space could be shared?",
+    "tool-share": "What tool, bench, kit or space is ready to share?",
     "learning-request": "What would someone like to learn?",
     "build-request": "What would someone like to build?",
     "repair-request": "What needs repair or triage?",
-    "experiment-idea": "What question could become a small experiment?",
-    "material-offer": "What material, parts or surplus could be offered?"
+    "experiment-idea": "What question is ready for a small experiment?",
+    "material-offer": "What material, parts or surplus can be offered?"
   };
 
   function value(name) {
@@ -81,6 +81,9 @@
       "steward: " + yaml(value("steward")),
       "public_contact: " + yaml(value("public_contact")),
       "place_or_reach: " + yaml(value("place")),
+      "named_contributor: " + yaml(value("named_contributor")),
+      "grant_or_mentorship_role: " + yaml(value("grant_role")),
+      "consent_or_review_status: " + yaml(value("consent_status")),
       "prepared_date: " + yaml(today()),
       "---",
       "",
@@ -89,6 +92,10 @@
       "This file is a public-safe starter note for Straddie Maker-Space Lab. It should be checked by a human before publishing, booking, lending, repairing, testing or promising anything.",
       "",
       section("Record Type", typeLabels[type] || type),
+      section("Named Contributor Or Nominee", value("named_contributor")),
+      section("Contribution, Mentorship Or Grant Role", value("grant_role")),
+      section("Nomination Notes", value("nomination_notes")),
+      section("Consent Or Review Status", value("consent_status")),
       section("Main Details", value("details")),
       section("Useful Dates, Times Or Availability", value("availability")),
       section("Tools, Materials, Spaces Or Helpers Needed", bulletList(value("needs"))),

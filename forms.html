@@ -14,15 +14,20 @@
     <header data-site-header></header>
     <main id="main">
       <section class="page-hero" aria-labelledby="page-title">
-        <h1 class="page-title" id="page-title">What do people want to share, learn, build, repair or test?</h1>
-        <p class="lede">These plain forms turn community offers and questions into small Markdown files. A file can become a noticeboard post, workshop intake note, grant evidence, tool-sharing record or next-step conversation.</p>
+        <div class="page-hero-copy">
+          <h1 class="page-title" id="page-title">What do people want to share, learn, build, repair or test?</h1>
+          <p class="lede">These plain forms turn community offers, nominations and questions into small Markdown files. A file can become a noticeboard post, workshop intake note, grant evidence, tool-sharing record, mentorship lead or next-step conversation.</p>
+        </div>
+        <figure class="page-hero-media">
+          <img src="assets/img/forms-intake-desk.webp" alt="A workshop intake desk with a laptop, paper forms, material tags, repair parts and organised storage in the background.">
+        </figure>
       </section>
 
       <section class="section split" aria-labelledby="why-title">
         <div>
-          <h2 id="why-title">A gentle front door for non-technical people.</h2>
+          <h2 id="why-title">A clear front door for non-technical people.</h2>
           <p class="body-copy">The form pattern follows the shared-assets builder from the Straddie Content Assets Kit: fill in ordinary fields, review the Markdown, then copy or download a public-safe draft for a human to check.</p>
-          <p class="open-question">What if the first useful database was not a database at all, but careful notes that people can read, improve and act on?</p>
+          <p class="open-question">What useful map appears when people can name what they can lend, teach, build, repair, test or help fund?</p>
         </div>
         <div class="callout">
           <h3>Public-safe reminder</h3>
@@ -49,6 +54,16 @@
               <label>Person, group or project name <input name="steward" placeholder="Who is offering, asking or stewarding this?"></label>
               <label>Public contact or noticeboard link <input name="public_contact" placeholder="A public page, noticeboard item, email alias or leave blank for now"></label>
               <label>Township or reach <input name="place" placeholder="Dunwich, Amity, Point Lookout, island-wide, online"></label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Contributor, mentor or grant nomination</legend>
+              <label>Named contributor, mentor or nominee <input name="named_contributor" placeholder="Who should be named, invited, thanked or considered?"></label>
+              <label>Contribution, mentorship or grant role <input name="grant_role" placeholder="e.g. mentor, tool steward, grant referee, workshop lead, contributor"></label>
+              <label>Who nominated them, and why?
+                <textarea name="nomination_notes" placeholder="What are they good at, what have they already helped with, or why would they strengthen a grant, workshop or mentoring pathway?"></textarea>
+              </label>
+              <label>Consent or review status <input name="consent_status" placeholder="e.g. ask before naming publicly, happy to be contacted, needs human review"></label>
             </fieldset>
 
             <fieldset>
@@ -87,16 +102,17 @@
 
       <section class="section" aria-labelledby="records-title">
         <div class="section-head">
-          <h2 id="records-title">What records could these forms create?</h2>
+          <h2 id="records-title">What records can these forms create?</h2>
           <p class="body-copy">Each record starts small. The value is in making needs, offers and limits visible enough for people to help responsibly.</p>
         </div>
         <div class="grid three">
           <article class="info-card"><h3>Tool sharing</h3><p>Who can lend or steward a tool, what training is needed, how it is checked out, and when sharing should pause.</p></article>
           <article class="info-card"><h3>Learning requests</h3><p>What people want to learn, why it matters, and what a beginner-friendly first session could look like.</p></article>
+          <article class="info-card"><h3>Contributor nominations</h3><p>Who should be named for mentorship, grant evidence, workshop leadership, tool stewardship or public thanks once consent is clear.</p></article>
           <article class="info-card"><h3>Build ideas</h3><p>What people want to make, what materials are already available, and what would make the first prototype useful.</p></article>
           <article class="info-card"><h3>Repair intake</h3><p>What is broken, what is safe to inspect, what might become parts-only, and what needs specialist help.</p></article>
-          <article class="info-card"><h3>Experiment prompts</h3><p>Which material, tool, food, media, concrete, sand or energy question could be tested without overpromising.</p></article>
-          <article class="info-card"><h3>Material offers</h3><p>What clean offcuts, containers, parts or surplus could be offered before disposal, with clear no-go rules.</p></article>
+          <article class="info-card"><h3>Experiment prompts</h3><p>Which material, tool, food, media, concrete, sand or energy question is ready for a bounded first test.</p></article>
+          <article class="info-card"><h3>Material offers</h3><p>What clean offcuts, containers, parts or surplus can be offered before disposal, with clear no-go rules.</p></article>
         </div>
       </section>
     </main>

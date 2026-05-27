@@ -24,6 +24,11 @@ The site keeps the public story centred on a practical, public access light-indu
 - Island Resilient Community Priorities
 - 07April2026-B Straddie Resilience Plan
 - Roadmap for Multicultural Grant
+- Straddie Sovereign Wealth Fund and Civilisation of Sand Research Brief
+- Subterranean Super Civilization Master Plan
+- GenesisAI, Sands, and Kardashev Civilization
+- Designing A Sovereign Island Civilization
+- Civilisation of Sand
 
 ## Markdown Archive Route Reviewed
 
@@ -64,10 +69,13 @@ Specific files used as conceptual anchors:
 - A Tip Loop sister-site could explore lawful pre-tip diversion, not unauthorised dump salvage.
 - Redland City Council lists the North Stradbroke Island Recycling and Waste Centre at 100 East Coast Road, and its RecycleWorld page gives a mainland reuse precedent at Redland Bay.
 - Recent councillor posts reportedly mention possible additional recycling facilities for Straddie; this is treated as a lead to verify until a public post or Council record is linked.
-- A concrete batch-plant sister-site could map concrete, recycled inputs, non-structural tests, safe tool sharing and low-waste material literacy if owners, operators and qualified reviewers wanted to explore it.
+- A concrete batch-plant sister-site could become a Concrete and Geopolymer Learning Yard: owner-approved, non-structural at first, recipe-led, public-readable and evidence-rich, with clean rubble, recycled glass, local sand, aggregate, safe binders and low-waste mixes tested before any scale claim.
 - Local sand and mineral-sand ideas are rich, but public wording needs strong boundaries around law, culture, Country, environment and safety.
 - Subterranean / Sandworm systems belong on the future map as accountable questions, not near-term claims.
 - The compact tool-shed playlist supports the idea that a small room can hold serious capability when storage, labelling and workflow are designed well.
+- The sand page now carries the deeper material stack: quartz and silica for glass, ceramics, silicon, solar and sand batteries; ilmenite and rutile for titanium dioxide, alloys and corrosion-resistant parts; zircon for zirconia ceramics, thermal barriers and cutter-head ideas; monazite for rare-earth and thorium stewardship questions; and waste streams as the first lawful ore body.
+- The preferred footprint direction is light and public above ground, practical in service zones, and increasingly subterranean where freight, utilities, storage, agritech, thermal batteries or future fabrication can reduce surface disruption.
+- The long home-scale horizon is locally made, repairable, custom-fit objects: kitchen tools, ceramic/glass parts, water and food-loop components, appliance housings and material-passport records, once any processing pathway is simple, safe, clean, lawful and properly authorised.
 
 ## Public Boundary
 

@@ -96,9 +96,20 @@ function setupBackToTop() {
   window.addEventListener("scroll", update, { passive: true });
 }
 
+function setupExternalLinks() {
+  document.querySelectorAll('a[href^="http://"], a[href^="https://"]').forEach((link) => {
+    link.target = "_blank";
+    const rel = new Set((link.getAttribute("rel") || "").split(/\s+/).filter(Boolean));
+    rel.add("noopener");
+    rel.add("noreferrer");
+    link.setAttribute("rel", [...rel].join(" "));
+  });
+}
+
 renderHeader();
 renderFooter();
 setupBackToTop();
+setupExternalLinks();
 
 window.StraddieMakerSpace = { icon };
 
