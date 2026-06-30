@@ -1,40 +1,65 @@
-# Straddie Maker-Space Lab Public Licence
+# Strange But True Public Source Licence
 
-This custom licence follows the Strange But True public-infrastructure pattern, adapted for the Straddie Maker-Space Lab prototype.
+Copyright (c) 2026 Luke Nathan Hayes / Strange But True / Aura of Intelligence.
+All rights reserved except as allowed below.
 
-Copyright 2026. Rights remain with their respective creators and source holders. All rights are reserved except as allowed below.
+This is a plain-language licence for straddie-makerspace-lab.
 
-## 1. Code And Templates As Public Infrastructure
+This is not an open-source licence. It is a public source licence: people can read, learn from and use the work personally, but commercial and corporate rights stay with Luke Nathan Hayes.
 
-The website code, page templates and public planning patterns may be viewed, studied, cloned, adapted and improved for public-interest, educational, community, cultural, environmental, emergency-preparedness, repair, recycling, right-to-repair, regenerative or local-enterprise purposes.
+## 1. What You Can Do
 
-These permissions are subject to the following boundaries:
+You may view, share, clone, study, reference and adapt this repo for personal, educational, artistic, research, community or other non-commercial use.
 
-- Do not sell this codebase, templates or public infrastructure.
-- Do not repackage the site identity, generated images, source notes, creative framing or narrative materials for sale.
-- Keep clear provenance where practical.
-- Share useful fixes, notes or improvements back to the public commons where reasonable.
-- Do not imply endorsement, authority, cultural permission, planning approval or official status without permission.
+You may use a personal AI assistant to help read, explain or adapt the repo for those allowed non-commercial uses.
 
-## 2. Cultural, Place And Material Data
+If you use or adapt the work, give clear credit:
 
-Place references, cultural references, source notes, local-material notes, project links and planning examples are draft public-facing material.
+Based on straddie-makerspace-lab by Luke Nathan Hayes / Strange But True / Aura of Intelligence.
+Original project: https://github.com/auraofintelligence/straddie-makerspace-lab
+Used under the Strange But True Public Source Licence.
 
-They must not be treated as consent, endorsement, cultural authority, permission to use a place, permission to extract minerals, safety advice, environmental approval, legal advice, grant approval, engineering certification or current trading information.
+## 2. What You Cannot Do Without Permission
 
-## 3. Generated Images
+You may not use this repo, its code, ideas, text, designs, workflows, data structures, assets, names or close derivatives for commercial, corporate, institutional, government, startup, agency, client or employer purposes without written permission from Luke Nathan Hayes.
 
-Generated images in `assets/img/` and `docs/` are included for this prototype website. They may be used with this site and closely related public-interest adaptations.
+That means you may not:
 
-Do not sell, repackage, upload as stock assets, use as official cultural material, or present them as documentary photographs.
+- sell, monetise, repackage, licence, sponsor, advertise with or commercially distribute the work;
+- use it in paid products, SaaS tools, client work, consulting, courses, workshops, dashboards, templates or commercial infrastructure;
+- use it inside a company, agency, startup, institution, government body or funded commercial project;
+- use it for commercial AI training, datasets, embeddings, knowledge bases, agents, model products or evaluation systems;
+- remove attribution or present the work as your own;
+- use Strange But True, Aura of Intelligence, Luke Nathan Hayes, project names, screenshots, music, writing, images or brand material to imply endorsement, partnership or approval.
 
-## 4. Ethos
+## 3. Commercial Rights
 
-This infrastructure exists to support joyful responsible abundance, public clarity, local learning, safer practical work, cultural care, ecological stewardship, circular repair economies, fair contribution records and better community memory.
+All commercial rights are reserved to Luke Nathan Hayes.
 
-Do not use it for extractive, deceptive, exploitative, unsafe, culturally careless or privacy-invasive purposes.
+Commercial use requires written permission from Luke Nathan Hayes. Permission can be granted, denied, limited, priced or handled under a separate agreement.
 
-## 5. Reality
+## 4. Your Own Outputs
 
-This prototype is provided as is, without warranties. Any real maker-space, workshop, public-access facility, repair program, recycling stream, mineral-material experiment, construction project or subterranean infrastructure concept still requires current advice and approval from the relevant cultural authority, land manager, property owner, council, regulator, insurer, engineer, environmental specialist and safety professionals.
+If this repo lets you create your own notes, Markdown files, exports, maps, profiles, plans or other personal outputs, those outputs belong to you.
 
+You are responsible for what you put into the tool, what you export, and where you share it.
+
+## 5. Third-Party Material
+
+This licence only covers original material created by Luke Nathan Hayes / Strange But True / Aura of Intelligence.
+
+Third-party libraries, fonts, APIs, platforms, services or embedded material keep their own licences.
+
+## 6. No Harmful Or Misleading Use
+
+You may not use this repo or its material for deceptive, exploitative, aggressive, hateful, harassing, unsafe or harmful purposes.
+
+You may not use it to mislead people about privacy, security, law, finance, health, public safety, governance, crypto, AI capability or current events.
+
+## 7. No Warranty
+
+This repo is provided as-is.
+
+Luke Nathan Hayes / Strange But True / Aura of Intelligence make no warranties and accept no liability for how you use, adapt, interpret, deploy or rely on this material.
+
+Public prototypes are not finished legal, medical, financial, privacy, security, public-safety, governance, crypto, AI-governance or production infrastructure unless Luke Nathan Hayes explicitly says so in writing.
